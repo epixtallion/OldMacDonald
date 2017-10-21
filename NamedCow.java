@@ -1,7 +1,7 @@
 class NamedCow extends Cow
 {
-	protected string myName;
-	public string getName(){
+	protected String myName;
+	public String getName(){
 		return myName;
 	}
 	public NamedCow(String type, String name, String sound){

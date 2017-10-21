@@ -13,12 +13,10 @@ class Chick implements Animal
 		mySound = sound;
 		mySound2 = sound2;
 	}
-	public void setSound(String s){
-		mySound = s;
-	}
 	public String getSound(){
 		return Math.random()<.5 ? mySound2 : mySound2;
 	}
-  public String getSound(){ return mySound; }
-  public void getSound(){ return mySound; }
+  public void setSound(String sound){ mySound = sound; }
+  public String getType(){ return myType; }
+  public void setType(String type){ myType = type; }
 } 
